@@ -1,0 +1,26 @@
+
+// Load database
+val smallTestRDD = sc.textFile("/resources/DataSmall.csv")
+smallTestRDD.count()
+
+// Filter and transformation
+val transform = smallTestRDD.map(_.split(",")).filter(_(5) == "traffic-accident").map(x => (x(6).split(" ").mkString, x(12), x(13)))
+// make sure numbers are reduced
+transform.count()
+// See sample output
+println(transform.first())
+
+// Get historical data from Weather API, calling WEATHER UNDERGROUND API
+def getHistWeather(date: String, lon: String, lat: String) = {
+ val url = "http://api.wunderground.com/api/9519659bd4c949e4/history_" + date + "/q/" + lat + "," + lon + ".json"
+ scala.io.Source.fromURL(url).mkString
+}
+
+val smallWeatherTestRDD = transform.map(x => (x._1, x._2, x._3, getHistWeather(x._1, x._2, x._3)))
+
+// See sample output
+println(smallWeatherTestRDD.first())
+
+
+
+

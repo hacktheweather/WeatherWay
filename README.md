@@ -26,8 +26,11 @@
 
 ###Functionality: How functional is your code?
 - DataCloud API to check if there is bad weather on each leg(Ex: Turn right on street), so we can **exatly** predict on from what part of your route weather is going to affect you
+<img width="442" alt="screen shot 2015-09-20 at 10 28 13 am" src="https://cloud.githubusercontent.com/assets/6511079/9982037/68017548-5f83-11e5-8c1a-28bdf09c9a9d.png">
+- Google Maps Directions API to give directions step by step and showing if there's bad weather on this step, so the user can be more careful
+![img_9763](https://cloud.githubusercontent.com/assets/6511079/9982068/30af63ce-5f84-11e5-8561-0eff70e1acfe.PNG)
 
 
 
-Innovation: How innovative is the solution?
+
 ![slack for ios upload png](https://cloud.githubusercontent.com/assets/6511079/9981661/cddcfdf8-5f77-11e5-9859-93a4899f0f03.jpeg)

@@ -44,4 +44,20 @@
 <img width="308" alt="screen shot 2015-09-20 at 11 29 40 am" src="https://cloud.githubusercontent.com/assets/6511079/9982270/e98a6ee2-5f8a-11e5-8ed7-841b9b8b8fe5.png">
 
 
+#Business Model
+
+##B2B
+
+- Sell data to Insurance companies
+- Truck companies
+- School buses
+- Uber drivers
+- Sell intelligent API
+
+##B2C
+- User of the App
+- Freemium Model
+- 
+
+# Current Archtecture
 

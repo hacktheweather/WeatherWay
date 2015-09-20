@@ -16,6 +16,16 @@
 - **Weather was a critical factor** in 20,000 crashes **involving large trucks** over a multi-year period.
 - Trucking companies lose an estimated **32 billion vehicle hours** due to weather-related congestion
 
+###Innovation: How innovative is the WeatherWay?
+- Nowadays, GPS Apps only care about how fast you can get from place A to place B
+- WeatherWay cares about **you** and **safety** by preventing accidents and suggesting least dangerous routes based on our **Big Data algorithm**
+
+###Relevance: Does WeatherWay solve a real problem?
+- Yearly, there are **more than 1 million vehicle crashes** and **6,250 deaths** where **wheater was a factor.**
+- We offer a safer route based on analysis on **weather prediction**, a **5-year wheather history** and **more than 100 thousand car accidents** database
+
+###Functionality: How functional is your code?
+- DataCloud API to check if there is bad weather on each leg(Ex: Turn right on street), so we can **exatly** predict on from what part of your route weather is going to affect you
 
 
 

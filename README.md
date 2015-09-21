@@ -58,8 +58,6 @@
 ##B2C
 - User of the App
 - Freemium Model
-- 
 
 # Current Archtecture
 <img width="990" alt="screen shot 2015-09-20 at 12 45 32 pm" src="https://cloud.githubusercontent.com/assets/6511079/9982567/8efe1bd0-5f95-11e5-8220-458a9c63d9f6.png">
-
